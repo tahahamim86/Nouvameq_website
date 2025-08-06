@@ -649,7 +649,7 @@ body, html {
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 50px;
+    min-height: 50px;
     transition: .5s;
 }
 
@@ -660,7 +660,6 @@ body, html {
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Bryant Pro";
     font-weight: 600;
     vertical-align: middle;
     margin-left: 8px;

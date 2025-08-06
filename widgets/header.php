@@ -5,7 +5,7 @@
                     <div class="d-flex flex-wrap">
                         <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>5, rue des Fonderies-Z.I Ben Arous - TUNISIE</a>
                         <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+216 22 226 000 __ +216 29 368244</a>
-                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>contact@nouvameq.net</a>
+                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>contact@nouvameq.com</a>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center text-lg-end">
@@ -22,24 +22,41 @@
         <!-- Topbar End -->
 
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid position-relative p-0" style="background:white">
-            <nav class="navbar navbar-expand-lg navbar-light  px-6 px-lg-5 py-3 py-lg-0">
-                <a href="index.php" class="navbar-brand p-0">
-                <img src="img/logo.png" alt="" width="190px" height="180px">
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse" >
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Accueil</a>
-                        <a href="about.php" class="nav-item nav-link">A propos</a>
-                        <a href="service.php" class="nav-item nav-link">Services</a>
-                        <a href="realisation.php" class="nav-item nav-link">Nos Réalisations</a>
-                    </div>
-                </div>
-            </nav>
-            </div>
-       <!-- JavaScript Libraries -->
+    <div class="container-fluid position-relative p-0">
+  <nav class="navbar navbar-expand-lg navbar-light px-6 px-lg-5 py-3 py-lg-0">
+    <a href="index.php" class="navbar-brand p-0">
+      <img src="img/logo.png" alt="" width="190px" height="180px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="fa fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto py-0">
+        <a href="index.php" class="nav-item nav-link active">Accueil</a>
+        <a href="about.php" class="nav-item nav-link">À propos</a>
+
+        <!-- Dropdown start -->
+        <div class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle no-caret" data-bs-toggle="dropdown">
+  Services <i class="fas fa-chevron-down ms-1"></i>
+</a>
+          <div class="dropdown-menu rounded-3 shadow border-0">
+            <a href="amenagement.php" class="dropdown-item">Aménagement des datacenters</a>
+            <a href="maintenance.php" class="dropdown-item">maintenance des datacenters</a>
+            <a href="cloud.php" class="dropdown-item">S.à.V</a>
+            <a href="container.php" class="dropdown-item">Datacenter Mobile</a>
+          </div>
+        </div>
+        <!-- Dropdown end -->
+                <a href="#" class="nav-item nav-link">Nos projets</a>
+        <a href="realisation.php" class="nav-item nav-link">Réalisation</a>
+      </div>
+    </div>
+  </nav>
+</div>
+<style>
+    .navbar .dropdown-toggle::after {
+  display: none !important;
+}
+
+</style>

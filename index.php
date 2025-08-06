@@ -14,7 +14,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
-
+<link rel="icon" href="https://nouvameq.com/wp-content/uploads/2020/04/nou.png" type="image/png" />
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -43,7 +43,7 @@
 
 <!-- Animate.css -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-
+<link rel="icon" href="https://nouvameq.com/wp-content/uploads/2020/04/nou.png" type="image/png" />
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
@@ -65,139 +65,52 @@
 
   <?php include 'widgets/header.php'; ?>
 
+<div class="container-fluid carousel">
+  <div class="carousel-track" id="carouselTrack">
+    <!-- Slide 1 -->
+    <div class="slide" style="background-image: url('img/10.jpg');">
+      <div class="slide-content">
+        <h3>Qui sommes-nous ?</h3>
+        <p>Depuis 16 ans, Nouvameq accompagne la conception de data centers en Tunisie, en garantissant expertise, innovation et fiabilité.</p>
+        <ul>
+          <li><i class="fa fa-check"></i> Expertise complète en DataCenters</li>
+          <li><i class="fa fa-check"></i> Solutions mobiles en conteneur</li>
+          <li><i class="fa fa-check"></i> Services client de qualité</li>
+        </ul>
+        <a href="about.php" class="btn btn-outline-primary">Plus d'info ...</a>
+      </div>
+    </div>
 
-            <!-- Carousel Start -->
-            <div class="header-carousel owl-carousel">
-                <div class="header-carousel-item">
-                  <video  class ="vdeo" src="img/container1-nouvameq.mp4" loop autoplay muted></video>
-                                        
-                    <div class="carousel-caption">
-                        <div class="carousel-caption-content p-3">
+    <!-- Slide 2 -->
+    <div class="slide" style="background-image: url('img/datacenter.jpg');">
+      <div class="slide-content">
+        <h3>Data Center smart solutions</h3>
+<p> Pour répondre aux enjeux économiques ainsi q'auxw exigences de sécurité, de performance et de modernité, NOUVAMEQ vous propose une offre complète et entièrement modulaire dédiée à l'écosystème des data centers.</p> 
+      </div>
+    </div>
 
-                            <h3 class="display-1 text-capitalize mb-3 typing" id="datacenter-title" >DATACENTER clé en main</h3>
-                            <h3 class="text-light mb-3">  Data Centers sur-mesure
-Expertise en conception, installation et maintenance de vos infrastructures IT on-premises .
-                            </h3> 
-                        </div>
-                    </div>
-                </div>
-                
-                
-            </div>
-            <!-- Carousel End -->
-        </div>
-        <style>
-    /* Container carousel */
-.header-carousel {
-  position: relative;
-  width: 100%;
-  height: 100vh; /* hauteur relative à la vue */
-  overflow: hidden;
-  border-radius: 16px;
-}
-
-/* Chaque slide */
-.header-carousel-item {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-/* Vidéo en plein écran */
-.header-carousel-item video.vdeo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Pour que la vidéo couvre toute la zone */
-  border-radius: 16px;
-}
-
-/* Overlay contenu texte */
-.carousel-caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(14, 31, 86, 0.5); /* léger overlay sombre */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 16px;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-/* Texte contenu centré */
-.carousel-caption-content {
-  max-width: 900px;
-  color: white;
-  text-align: center;
-}
-
-/* Titres */
-.carousel-caption-content h3.display-1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  line-height: 1.1;
-}
-
-.carousel-caption-content h3.text-light {
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.4;
-}
-
-/* Animation typing (si tu l’utilises) */
-.typing {
-  /* ajout simple d’animation typewriter si tu veux */
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 0.15em solid #fff;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink-caret {
-  50% { border-color: transparent }
-  100% { border-color: white }
-}
-
-/* Responsive Adjustments */
-@media (max-width: 992px) {
-  .header-carousel {
-    height: 80vh;
-  }
-  
-  .carousel-caption-content h3.display-1 {
-    font-size: 2.5rem;
-  }
-
-  .carousel-caption-content h3.text-light {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .header-carousel {
-    height: 80vh;
-  }
-  
-  .carousel-caption-content h3.display-1 {
-    font-size: 1.8rem;
-  }
-
-  .carousel-caption-content h3.text-light {
-    font-size: 1rem;
-  }
-}
-
-
-        </style>
+    <!-- Slide 3 -->
+    <div class="slide" style="background-image: url('img/porte.jpg');">
+      <div class="slide-content">
+        <h3>Nos projets</h3>
+        <p>Des data centers performants livrés à temps avec les normes les plus strictes. Découvrez nos projets phares.</p>
+        <ul>
+          <li><i class="fa fa-check"></i> Conformité ISO & Uptime</li>
+          <li><i class="fa fa-check"></i> Déploiement national</li>
+          <li><i class="fa fa-check"></i> Références publiques & privées</li>
+        </ul>
+        <a href="realisations.html" class="btn btn-outline-primary">Voir nos projets</a>
+      </div>
+    </div>
+  </div>
+  <!-- Indicateurs -->
+  <div class="carousel-nav" id="carouselNav">
+    <span class="carousel-dot active" onclick="goToSlide(0)"></span>
+    <span class="carousel-dot" onclick="goToSlide(1)"></span>
+    <span class="carousel-dot" onclick="goToSlide(2)"></span>
+  </div>
+</div>
+         
         <!-- Navbar & Hero End -->
 <!-- Nos Chiffres Clés avec icônes -->
 <section class="key-figures-section position-relative py-5 text-white">
@@ -255,108 +168,7 @@ Expertise en conception, installation et maintenance de vos infrastructures IT o
 
 </section>
 <!-- Nos Métiers -->
-<section class="metiers-section position-relative text-white py-5">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h1 class="fw-bold animate__animated animate__fadeInDown">Nos Métiers</h1>
-      <p class="lead animate__animated animate__fadeInUp" style="max-width: 700px; margin: auto;">
-        Spécialistes de la transformation des datacenters et de la gestion de la donnée, nos experts accompagnent nos clients dans l’étude, le choix, l’installation, l’exploitation, l’évolution et la maintenance de leurs infrastructures IT on premises et Clouds.
-      </p>
-    </div>
 
-    <div class="row g-4 justify-content-center">
-      <div class="col-6 col-md-4 col-lg-3 text-center animate__animated animate__fadeInUp" style="animation-delay: 0.1s;">
-        <div class="icon-circle-sm mb-3 bg-white">
-          <i class="fas fa-network-wired fa-2x text-primary"></i>
-        </div>
-        <h5 class="fw-semibold text-white">Infrastructure Réseau</h5>
-      </div>
-
-      <div class="col-6 col-md-4 col-lg-3 text-center animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
-        <div class="icon-circle-sm mb-3 bg-white">
-          <i class="fas fa-shield-alt fa-2x text-primary"></i>
-        </div>
-        <h5 class="fw-semibold text-white">Sécurité</h5>
-      </div>
-      <div class="col-6 col-md-4 col-lg-3 text-center animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
-        <div class="icon-circle-sm mb-3 bg-white">
-           <i class="fas fa-box text-primary fa-2x"></i>
-
-        </div>
-        <h5 class="fw-semibold text-white">Containersation des data centers</h5>
-      </div>
-
-
-
-      <div class="col-6 col-md-4 col-lg-3 text-center animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
-        <div class="icon-circle-sm mb-3 bg-white">
-          <i class="fas fa-tools fa-2x text-primary"></i>
-        </div>
-        <h5 class="fw-semibold text-white">Maintenance IT</h5>
-      </div>
-
-
-      <div class="col-6 col-md-4 col-lg-3 text-center animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
-        <div class="icon-circle-sm mb-3 bg-white">
-          <i class="fas fa-code fa-2x text-primary"></i>
-        </div>
-        <h5 class="fw-semibold text-white">Développement & Intégration</h5>
-      </div>
-    </div>
-  </div>
-
-  <!-- Shape Divider Bottom -->
-
-</section>
-<style>
-    .metiers-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-              url('img/10.jpeg') center/cover no-repeat fixed;
-  position: relative;
-  z-index: 1;
-  padding: 120px 0 80px;
-  overflow: hidden;
-  height: 100vh;
-}
-.metiers-section .container{
-      padding-top: 10%;
-}
-.metiers-section .icon-circle-sm {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  background-color: #ffffff; /* blanc pur pour contraste */
-  transition: transform 0.3s ease;
-}
-
-.metiers-section .icon-circle-sm:hover {
-  transform: scale(1.1);
-}
-
-.metiers-section .text-primary {
-  color: #0d6efd !important;
-}
-
-.shape-divider-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.shape-divider-bottom svg {
-  display: block;
-  width: 100%;
-  height: 80px;
-}
-
-</style>
 <style>
  .key-figures-section {
   background: linear-gradient( rgba(142, 230, 233, 0),rgba(0, 62, 138, 0.644)),
@@ -581,6 +393,136 @@ Expertise en conception, installation et maintenance de vos infrastructures IT o
   }
 }
 </style>
+
+  <style>
+
+
+    .container-services {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+      background-color:black;
+       background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+              url('img/image.jpg') center/cover no-repeat fixed;
+  position: relative;
+  z-index: 1;
+  padding: 120px 0 80px;
+  overflow: hidden;
+    }
+
+    .services-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .services-header h2 {
+      font-size: 4.5rem;
+      color: #38bdf8;
+      margin-bottom: 20px;
+font-weight:800;    }
+
+    .services-header .intro {
+      max-width: 800px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+      margin: 0 auto;
+    }
+
+    .services-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .glass {
+      position: relative;
+      width: 200px;
+      height: 220px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 16px;
+      transition: transform 0.5s, box-shadow 0.3s;
+      backdrop-filter: blur(14px);
+      transform: rotate(calc(var(--r) * 1deg));
+      cursor: pointer;
+    }
+
+    .glass i {
+      font-size: 50px;
+      color: #fff;
+    }
+
+    .container-services:hover .glass {
+      transform: rotate(0deg);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .glass::before {
+      content: attr(data-text);
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      background: rgba(255, 255, 255, 0.05);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffffcc;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      font-size: 16px;
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+    }
+
+    @media (max-width: 768px) {
+      .glass {
+        width: 160px;
+        height: 200px;
+      }
+
+      .glass i {
+        font-size: 40px;
+      }
+    }
+  </style>
+
+
+  <div class="container-services">
+    <div class="services-header">
+      <h2>Nos Services</h2>
+      <p class="intro">
+        Spécialisée dans l’intégration d’infrastructures IT, notre société vous accompagne dans la mise en œuvre de solutions performantes et durables. Découvrez nos services clés conçus pour optimiser votre environnement numérique.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="glass" data-text="Aménagement IT" style="--r:-15;">
+        <a href="amenagement.php"><i class="fas fa-network-wired"></i></a>
+      </div>
+
+      <div class="glass" data-text="Data Center Mobile" style="--r:-5;">
+       <a href="container.php"><i class="fas fa-server"></i></a> 
+      </div>
+
+      <div class="glass" data-text="Maintenance" style="--r:5;">
+    <a href="maintenance.php"><i class="fas fa-tools"></i></a>    
+      </div>
+
+      <div class="glass" data-text="SAV" style="--r:15;">
+        <i class="fas fa-headset"></i>
+      </div>
+    </div>
+  </div>
+
 
 
    <!-- Team Start -->

@@ -23,7 +23,7 @@
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-
+<link rel="icon" href="https://nouvameq.com/wp-content/uploads/2020/04/nou.png" type="image/png" />
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -46,173 +46,107 @@
 
           <?php include "widgets/header.php"; ?>
  
-<div class="container-fluid carousel">
-  <div class="carousel-track" id="carouselTrack">
-    <!-- Slide 1 -->
-    <div class="slide" style="background-image: url('img/10.jpg');">
-      <div class="slide-content">
-        <h3>Qui sommes-nous ?</h3>
-        <p>Depuis 16 ans, Nouvameq accompagne la conception de data centers en Tunisie, en garantissant expertise, innovation et fiabilité.</p>
-        <ul>
-          <li><i class="fa fa-check"></i> Expertise complète en DataCenters</li>
-          <li><i class="fa fa-check"></i> Solutions mobiles en conteneur</li>
-          <li><i class="fa fa-check"></i> Services client de qualité</li>
-        </ul>
-        <a href="about.html" class="btn btn-outline-primary">Plus d'info ...</a>
-      </div>
-    </div>
 
-    <!-- Slide 2 -->
-    <div class="slide" style="background-image: url('img/datacenter.jpg');">
-      <div class="slide-content">
-        <h3>Data Center smart solutions</h3>
-<p> Pour répondre aux enjeux économiques ainsi q'auxw exigences de sécurité, de performance et de modernité, NOUVAMEQ vous propose une offre complète et entièrement modulaire dédiée à l'écosystème des data centers.</p> 
-      </div>
-    </div>
-
-    <!-- Slide 3 -->
-    <div class="slide" style="background-image: url('img/porte.jpg');">
-      <div class="slide-content">
-        <h3>Nos Réalisations</h3>
-        <p>Des data centers performants livrés à temps avec les normes les plus strictes. Découvrez nos projets phares.</p>
-        <ul>
-          <li><i class="fa fa-check"></i> Conformité ISO & Uptime</li>
-          <li><i class="fa fa-check"></i> Déploiement national</li>
-          <li><i class="fa fa-check"></i> Références publiques & privées</li>
-        </ul>
-        <a href="realisations.html" class="btn btn-outline-primary">Voir nos projets</a>
-      </div>
-    </div>
-  </div>
-  <!-- Indicateurs -->
-  <div class="carousel-nav" id="carouselNav">
-    <span class="carousel-dot active" onclick="goToSlide(0)"></span>
-    <span class="carousel-dot" onclick="goToSlide(1)"></span>
-    <span class="carousel-dot" onclick="goToSlide(2)"></span>
-  </div>
-</div>
 
 
         </div>
-      
-    <div class=" py-5 wow fadeInUp" data-wow-delay="0.1s" id="service">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h1 class="fw-bold  text-uppercase" style="color:  rgb(255, 255, 255)">Carésteristuqes Clés </h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fas fa-user-alt text-white"></i>
-
-
-                        </div>
-                        <h4 class="mb-3">Personalisation Totale</h4>
-                        <p class="m-0">Chaque DataCenter est configuré selon vos besoins précis, intégrant tous les aspects essentiels de l'infrastruce IT.</p>
-                        <a class="btn btn-lg btn-primary rounded" href="#tele">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fas fa-snowflake text-white"></i>
-
-                        </div>
-                        <h4 class="mb-3">Climatisation</h4>
-                        <p class="m-0">Systèmes de climatisation avancés avec condenseurs extérieurs protégés pour une efficacité optimale</p>
-                        <a class="btn btn-lg btn-primary rounded" href="#fibre">
-                             <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                           <i class="fas fa-shield-alt text-white"></i>
-
-
-                        </div>
-                        <h4 class="mb-3">Sécurité compléte</h4>
-                        <p class="m-0">Protection incendie, videosurveillance de pointe et contrôle d'accés sécurisé pour garantir ma sécurité de vos données.</p>
-                        <a class="btn btn-lg btn-primary rounded" href="#securite">
-                         <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fas fa-network-wired text-white"></i>
-
-                        </div>
-                        <h4 class="mb-3">Infrastructure IT moderne</h4>
-                        <p class="m-0">Racks serveurs et réseaux adaptés aux petits espaces.</p>
-                        <a class="btn btn-lg btn-primary rounded" href="etude">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-      <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fas fa-bolt text-white"></i>
-                      
-
-
-                        </div>
-                        <h4 class="mb-3">Zone énergie dédicacée</h4>
-                        <p class="m-0">Espace séparé pour les groupes électrogène, garantissant une gestion énergitique sécurisée et efficace</p>
-                        <a class="btn btn-lg btn-primary rounded" href="etude">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="	bi bi-house-fill text-white"></i>
-
-                        </div>
-                        <h4 class="mb-3">Isolation et Protéction</h4>
-                        <p class="m-0">Panneaux sandwich coupe-feu et isolation thermiques/acoustiques pour une protection maximale.</p>
-                        <a class="btn btn-lg btn-primary rounded" href="etude">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="bi bi-battery-full text-white"></i>
-
-                        </div>
-                        <h4 class="mb-3">Onduleur</h4>
-                        <p class="m-0">Onduleurs rackables ou standars.</p>
-                        <a class="btn btn-lg btn-primary rounded" href="etude">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div><div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="	bi bi-graph-up text-white"></i>
-
-                        </div>
-                        <h4 class="mb-3">Monitoring</h4>
-                        <p class="m-0">Systèmes de monotoring avancés.</p>
-                        <a class="btn btn-lg btn-primary rounded" href="etude">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-              
-            </div>
-            
-        </div>
+<section class="hero-datacenter">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1 class="hero-title">Aménagement des salles des datacenters</h1>
+      <p class="hero-description">
+        Chez <strong>NOUVAMEQ</strong>, nous accompagnons nos clients à chaque étape du cycle de vie de leur data center, avec des solutions intelligentes, évolutives et parfaitement adaptées à leurs enjeux technologiques. De la conception à l’évolution continue, notre approche intégrée garantit performance, fiabilité et valeur ajoutée durable pour vos infrastructures.
+      </p>
+<a href="#services" class="hero-scroll">
+  Découvrez nos activités <i class="fas fa-arrow-down"></i>
+</a>
     </div>
+  </div>
+</section>
+<style>
+  .hero-datacenter {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+              url('img/adcd5.jpg') center/cover no-repeat;
+  color: #ffffff;
+  padding: 120px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  max-width: 1000px;
+  text-align: center;
+  padding: 40px 20px;
+  background:#58585872;
+    border-radius:25px 25px;
+
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: -0.5px;
+  color:white;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  color: #f0f0f0;
+}
+.hero-scroll {
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 20px;
+  animation: bounce 2s infinite, borderPulse 2s infinite;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 2px solid #00a6fb;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.hero-scroll i {
+  font-size: 1.2rem;
+}
+
+/* Animation de rebond */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(5px);
+  }
+  60% {
+    transform: translateY(3px);
+  }
+}
+
+/* Animation pulsation de bordure */
+@keyframes borderPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 166, 251, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(0, 166, 251, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 166, 251, 0);
+  }
+}
+
+
+</style>
+
         <!-- Services Start -->
 
       
@@ -274,14 +208,14 @@
       z-index: 1;
     }
 
-    h2 {
+   .container-v h2 {
       font-size: 3rem;
       margin-bottom: 1rem;
       color: #facc15;
       font-weight: 700;
     }
 
-    p {
+   .container-v p {
       font-size: 1.25rem;
       line-height: 1.6;
       color: #ddd;
@@ -323,10 +257,10 @@
       .panel-content {
         max-width: 90vw;
       }
-      h2 {
+     .container-v h2 {
         font-size: 2.2rem;
       }
-      p {
+     .container-v p {
         font-size: 1rem;
       }
       .scroll-indicator {
@@ -339,11 +273,11 @@
     padding-left: 40px;
   }
 
-  h2 {
+   .container-v h2 {
     font-size: 2.5rem;
   }
 
-  p {
+    .container-v p {
     font-size: 1.1rem;
   }
 
@@ -381,11 +315,11 @@
     border-top-color: #facc15;
   }
 
-  h2 {
+   .container-v h2 {
     font-size: 1.8rem;
   }
 
-  p {
+   .container-v p {
     font-size: 0.95rem;
     line-height: 1.5;
   }
@@ -405,11 +339,11 @@
     max-width: 800px;
   }
 
-  h2 {
+  .container-v h2 {
     font-size: 3.5rem;
   }
 
-  p {
+   .container-v p {
     font-size: 1.35rem;
   }
 }
@@ -418,15 +352,10 @@
 
 
 
-  <div class="container-v">
+  <div class="container-v" id="services">
+
     <div class="scroll-container" id="scroll-container">
-      <section class="panel active" id="panel-" style="background-image: url('img/construction\ datacenter.png')">
-        <div class="panel-content" style="background-color: rgba(103, 102, 102, 0.618);">
-          <h2>Intégration Data Center</h2>
-          <p>Les services de data center intégration incluent l’architecture, le design, 
-            l’intégration et le déploiement pour des environnements sécurisés et résistants de réseau conçus pour conduire l’agilité d’affaires, l’innovation et la croissance. Nous pouvons aussi vous aider à construire une infrastructure optimale de réseau dans un public, l’environnement de nuage privé ou hybride.</p>
-        </div>
-      </section>
+      
       <section class="panel active" id="panel-1" style="background-image: url('img/Efficient-cooling-for-data-centers.jpg')">
         <div class="panel-content" style="background-color: rgba(103, 102, 102, 0.618);">
           <h2>Climatisation</h2>
@@ -595,6 +524,269 @@ toutes circonstances.</p>
         <!-- Book Appointment End -->
 
 
+<section class="services-section">
+  <h2 class="section-title">Vos Bénéfices avec <span>NOUVAMEQ</span></h2>
+
+  <div class="benefits-grid">
+    <div class="benefit-item">
+      <i class="fas fa-chart-line"></i>
+      <h4>Efficacité opérationnelle</h4>
+    </div>
+    <div class="benefit-item">
+      <i class="fas fa-euro-sign"></i>
+      <h4>Rentabilité accrue</h4>
+    </div>
+    <div class="benefit-item">
+      <i class="fas fa-server"></i>
+      <h4>Disponibilité des installations</h4>
+    </div>
+    <div class="benefit-item">
+      <i class="fas fa-shield-alt"></i>
+      <h4>Réduction des risques</h4>
+    </div>
+  </div>
+
+  <div class="services-details">
+    <div class="service-block">
+      <i class="fas fa-cogs"></i>
+      <h3>Optimisation des Coûts</h3>
+      <p>Réduction des coûts opérationnels et énergétiques grâce à une gestion intégrée et des prestations de qualité au meilleur prix.</p>
+    </div>
+    <div class="service-block">
+      <i class="fas fa-bolt"></i>
+      <h3>Performance Énergétique</h3>
+      <p>Contrôle précis des consommations pour une utilisation efficace de l’énergie.</p>
+    </div>
+    <div class="service-block">
+      <i class="fas fa-leaf"></i>
+      <h3>Impact Environnemental</h3>
+      <p>Valorisation de votre infrastructure et réduction de son empreinte carbone.</p>
+    </div>
+    <div class="service-block">
+      <i class="fas fa-tools"></i>
+      <h3>Maintenance Simplifiée</h3>
+      <p>Un seul interlocuteur pour une gestion et une maintenance facilitées.</p>
+    </div>
+  </div>
+
+ <!-- <div class="maintenance-section">
+    <h2>Maintenance & S.A.V</h2>
+    <div class="maintenance-items">
+      <div class="maintenance-item">
+        <i class="fas fa-shield-virus"></i>
+        <h4>Maintenance Préventive & Corrective</h4>
+        <p>Pour assurer la continuité de fonctionnement.</p>
+      </div>
+      <div class="maintenance-item">
+        <i class="fas fa-headset"></i>
+        <h4>Astreinte 24h/7j</h4>
+        <p>Notre équipe est à votre écoute pour une résolution rapide et efficace.</p>
+      </div>
+      <div class="maintenance-item">
+        <i class="fas fa-wrench"></i>
+        <h4>Service Après-Vente (S.A.V)</h4>
+        <p>Interventions rapides pour réparations curatives et maintien de performance optimale.</p>
+      </div>
+    </div>
+  </div>-->
+</section>
+
+<style>
+  .services-section {
+  padding: 80px 20px;
+  min-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  font-weight: 600;
+  col
+}
+.section-title span {
+  color: #f04e23;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.benefit-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  transition: 0.3s;
+}
+.benefit-item:hover {
+  transform: translateY(-8px);
+}
+.benefit-item i {
+  font-size: 2rem;
+  color: #f04e23;
+  margin-bottom: 12px;
+}
+.benefit-item h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.services-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.service-block {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+.service-block i {
+  font-size: 1.8rem;
+  color: #f04e23;
+  margin-bottom: 10px;
+}
+.service-block h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.service-block p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.maintenance-section {
+  margin-top: 60px;
+}
+.maintenance-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+.maintenance-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.maintenance-item {
+  flex: 1 1 280px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.maintenance-item i {
+  font-size: 2rem;
+  color: #f04e23;
+  margin-bottom: 12px;
+}
+.maintenance-item h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.maintenance-item p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+@media (max-width: 1200px) {
+  .services-section {
+    min-width: unset;
+    padding: 60px 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+  }
+
+  .service-block,
+  .benefit-item,
+  .maintenance-item {
+    padding: 20px;
+  }
+
+  .benefit-item h4,
+  .service-block h3,
+  .maintenance-item h4 {
+    font-size: 1.1rem;
+  }
+
+  .benefit-item i,
+  .service-block i,
+  .maintenance-item i {
+    font-size: 1.6rem;
+  }
+
+  .services-section {
+    padding: 60px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.9rem;
+  }
+
+  .benefits-grid,
+  .services-details {
+    grid-template-columns: 1fr;
+  }
+
+  .maintenance-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .maintenance-item {
+    width: 100%;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-section {
+    padding: 40px 12px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+  }
+
+  .benefit-item h4,
+  .service-block h3,
+  .maintenance-item h4 {
+    font-size: 1rem;
+  }
+
+  .benefit-item p,
+  .service-block p,
+  .maintenance-item p {
+    font-size: 0.9rem;
+  }
+
+  .benefit-item i,
+  .service-block i,
+  .maintenance-item i {
+    font-size: 1.4rem;
+  }
+}
+
+</style>
     <!-- Testimonial End -->
 
 

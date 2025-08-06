@@ -12,7 +12,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
-
+<link rel="icon" href="https://nouvameq.com/wp-content/uploads/2020/04/nou.png" type="image/png" />
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -209,8 +209,7 @@
 
     <div class="project-selector">
       <button class="project-btn active" data-target="projet1">Evenement ADCD</button>
-      <button class="project-btn" data-target="projet2">Projet 2 - Rénovation</button>
-      <button class="project-btn" data-target="projet3">Projet 3 - Événementiel</button>
+      <button class="project-btn" data-target="projet2">Salon international des industries électriques & électroniques </button>
     </div>
 
     <div class="project-content active" id="projet1">
@@ -246,9 +245,13 @@
           <img src="img/adcd9.jpg" alt="Projet 1 image 9" />
         </a>
 
-        <a href="video/projet1.mp4" class="glightbox" data-gallery="projet1" data-type="video" data-title="">
-          <video muted>
-            <source src="video/projet1.mp4" type="video/mp4" />
+        <a href="img/adcd.mp4" class="glightbox" data-gallery="projet1" data-type="video" data-title="" >
+          <video style=" height: 250px;
+  width: auto; /* maintains aspect ratio */
+  display: block;">
+            
+          </style>>
+            <source src="img/adcd.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </a>
@@ -256,30 +259,29 @@
     </div>
 
     <div class="project-content" id="projet2" style="display:none;">
-      <h3 style="color:#FF7F11; margin-bottom: 25px;">Projet 2 - Rénovation</h3>
+      <h3 style="color:#FF7F11; margin-bottom: 25px;">	
+Salon international des industries électriques & électroniques  2017 && 2019</h3>
       <div class="media-grid">
-        <a href="img/projet2-1.jpg" class="glightbox" data-gallery="projet2" data-title="">
-          <img src="img/projet2-1.jpg" alt="Projet 2 image" />
+        <a href="img/real1.jpg" class="glightbox" data-gallery="projet2" data-title="">
+          <img src="img/real1.jpg" alt="Projet 2 image" />
         </a>
-
-        <a href="video/projet2.mp4" class="glightbox" data-gallery="projet2" data-type="video" data-title="">
-          <video muted>
-            <source src="video/projet2.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+         <a href="img/real2.jpg" class="glightbox" data-gallery="projet2" data-title="">
+          <img src="img/real2.jpg" alt="Projet 2 image" />
+        </a>
+        <a href="img/real3.jpg" class="glightbox" data-gallery="projet2" data-title="">
+          <img src="img/real3.jpg" alt="Projet 2 image" />
+        </a>
+        <a href="img/real4.jpg" class="glightbox" data-gallery="projet2" data-title="">
+          <img src="img/real4.jpg" alt="Projet 2 image" />
+        </a>
+        <a href="img/real5.jpg" class="glightbox" data-gallery="projet2" data-title="">
+          <img src="img/real5.jpg" alt="Projet 2 image" />
+        </a>
+   <a href="img/real6.jpg" class="glightbox" data-gallery="projet2" data-title="">
+          <img src="img/real6.jpg" alt="Projet 2 image" />
         </a>
       </div>
     </div>
-
-    <div class="project-content" id="projet3" style="display:none;">
-      <h3 style="color:#FF7F11; margin-bottom: 25px;">Projet 3 - Événementiel</h3>
-      <div class="media-grid">
-        <a href="img/projet3-1.jpg" class="glightbox" data-gallery="projet3" data-title="">
-          <img src="img/projet3-1.jpg" alt="Projet 3 image" />
-        </a>
-      </div>
-    </div>
-  </div>
 </section>
 <!-- JS dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
